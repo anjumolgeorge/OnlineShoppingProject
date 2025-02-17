@@ -16,24 +16,24 @@ const Hero = () => {
     const slideData = [
         {
             id:0,
-            img:"/banner-1.jpg",
+            image:"/banner-1.jpg",
             title:"Trending Item",
-            mainTitle: "NEW FASHION SUMMER SALE",
-            price:"Rs 1499"
+            // mainTitle: "MODERN SUNGLASSES",
+            price:"1499"
         },
         {
             id:1,
-            img:"/banner-2.jpg",
+            image:"/banner-2.webp",
             title:"Trending Item",
-            mainTitle: "MODERN SUNGLASSES",
-            price:"Rs 1999"
+            mainTitle: "NEW FASHION SUMMER SALE",
+            price:"1999"
         },
         {
             id:0,
-            img:"/banner-3.jpg",
+            image:"/banner-3.jpg",
             title:"Trending Item",
             mainTitle: "WOMEN'S LATEST FASHION SALE",
-            price:"Rs 999"
+            price:"999"
         },
     ]
   return (
@@ -43,7 +43,7 @@ const Hero = () => {
             {slideData.map((item)=>(
                 <Slide
                 key={item.id}
-                img={item.img}
+                image={item.image}
                 title={item.title}
                 mainTitle={item.mainTitle}
                 price={item.price}/>
