@@ -1,6 +1,6 @@
 import React from 'react';
-import { CiStar } from "react-icons/ci";
-import { FaStar } from "react-icons/fa";
+import { AiFillStar } from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
 interface propsType {
     img: string;
     title:string;
@@ -16,87 +16,82 @@ const ProductCard: React.FC<propsType> = ({img,title,desc,rating,price}) => {
             case 1:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <FaStar />
-                       <FaStar />
-                       <FaStar />
-                       <CiStar />
+                      <AiFillStar />                      
+                      <AiOutlineStar />
+                      <AiOutlineStar />
+                      <AiOutlineStar />
+                      <AiOutlineStar />
 
                     </div>
                 ); 
             case 2:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <FaStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiOutlineStar />
+                      <AiOutlineStar />
+                      <AiOutlineStar />
                     </div>
                 ); 
             case 3:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiOutlineStar />
+                      <AiOutlineStar />
                     </div>
                 ); 
             case 4:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <FaStar />
-                       <CiStar />
-                       <CiStar/>
-                       <CiStar />
-
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />  
+                      <AiOutlineStar />                    
                     </div>
                 ); 
             case 5:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-                    </div>
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      </div>
                 ); 
             case 6:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar />
-                       <CiStar/>
-
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiOutlineStar />
+                      <AiOutlineStar />
                     </div>
                 ); 
             case 7:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <FaStar />
-                       <FaStar />
-                       <FaStar />
-                       <CiStar />
-
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiOutlineStar />
                     </div>
                 ); 
             case 8:
                 return(
                     <div className=' flex gap-1 text-[20px] text-[#FF9529]'>
-                       <FaStar />
-                       <FaStar />
-                       <CiStar />
-                       <CiStar/>
-                       <CiStar />
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiFillStar />                      
+                      <AiOutlineStar />                       <CiStar />
+                      <AiOutlineStar />                       <CiStar />
 
                     </div>
                 ); 
