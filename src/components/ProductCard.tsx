@@ -115,6 +115,7 @@ const ProductCard: React.FC<propsType> = ({img,title,desc,rating,price}) => {
    <h2 className=' text-red-500 font-medium uppercase'> {title}</h2>
    <p className=' text-gray-500 max-w-[150px]'>{desc}</p>
    <div>{generateRating(rating)}</div>
+   <div className=' font-medium flex gap-4'>Rs {price}</div>
   </div>
     </div>
   );
