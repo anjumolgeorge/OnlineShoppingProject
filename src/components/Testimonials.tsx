@@ -21,7 +21,12 @@ const Testimonials = () => {
         </div>
         <div className=' bg-red-600 bg-[url(/banner-4.jpg)] bg-cover h-[600px] pb-2 rounded-2xl
         grid place-items-center'>
-            <div></div>
+            <div className=' bg-[#ffffffab] min-w-[270px] sm:min-w-[300px]
+            rounded-xl py-8 sm:px-8 px-2 grid place-items-center gap-3 mt-[-27.4rem] ]'>
+                <button className=' bg-black text-white p-2 rounded-md'>40% DISCOUNT</button>
+                <h2 className=' font-extrabold text-2xl text-[#272727]'>Summer Collection</h2>
+                
+            </div>
 
         </div>
        </div>
