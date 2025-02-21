@@ -5,10 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 
 const HeaderTop = () => {
   return (
-     <div className='border-b border-gray-200 hidden sm:block bg-slate-900'>
-       <div className="container py-4 bg-slate-700">
-         <div className="flex justify-between items-center bg-slate-600">
-          <div className="hidden lg:flex gap-2 bg-slate-500">
+     <div className='border-b border-gray-200 hidden sm:block '>
+       <div className="container py-4 ">
+         <div className="flex justify-between items-center ">
+          <div className="hidden lg:flex gap-2 ">
            <div className="header_top_icon_wrapper">
            <FaFacebook />
            </div>
