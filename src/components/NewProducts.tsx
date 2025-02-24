@@ -8,7 +8,7 @@ import ProductCard from './ProductCard';
     price: 999
 },
 {
-    img:"/shopping7.jpg",
+    img:"/shopping12.jpg",
     title:"Dress",
     desc:"Modern looks",
     rating: 4, 
@@ -62,7 +62,7 @@ import ProductCard from './ProductCard';
 
 const NewProducts = () => {
   return (
-    <div>
+    <div id='newproducts'>
         <div className="container pt-16">
             <h2 className=' font-medium text-2xl pb-4'>New Products</h2>
             <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2

@@ -1,7 +1,12 @@
+"use client"
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Navbar = () => {
+  // useEffect(() => {
+  //   document.documentElement.style.scrollBehavior = "smooth";
+  // }, []);
+
   return (
     <div className="hidden lg:block">
         <div className="container">
@@ -9,10 +14,10 @@ const Navbar = () => {
     <Link className=' navbar_link relative' href="#">
     HOME
     </Link>
-    <Link className=' navbar_link relative' href="#">
+    <Link className=' navbar_link relative scroll-smooth' href="#newproducts">
     CATEGORIES
     </Link>
-    <Link className=' navbar_link relative' href="#">
+    <Link className=' navbar_link relative' href="#products">
     MEN'S
     </Link>
     <Link className=' navbar_link relative' href="#">

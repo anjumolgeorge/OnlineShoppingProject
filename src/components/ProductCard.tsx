@@ -90,8 +90,8 @@ const ProductCard: React.FC<propsType> = ({img,title,desc,rating,price}) => {
                       <AiFillStar />                      
                       <AiFillStar />                      
                       <AiFillStar />                      
-                      <AiOutlineStar />                       <CiStar />
-                      <AiOutlineStar />                       <CiStar />
+                      <AiOutlineStar />                      
+                      <AiOutlineStar />                       
 
                     </div>
                 ); 
