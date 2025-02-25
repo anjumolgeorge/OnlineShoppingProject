@@ -1,6 +1,9 @@
+import Footwears from "@/components/Footwears";
 import Gents from "@/components/Gents";
 import Hero from "@/components/Hero";
+import Ladies from "@/components/Ladies";
 import NewProducts from "@/components/NewProducts";
+import Perfume from "@/components/Perfume";
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -10,6 +13,9 @@ export default function Home() {
     <NewProducts/>
     <Testimonials/>
     <Gents/>
+    <Ladies/>
+    <Perfume/>
+    <Footwears/>
    </main>
   );
 }
