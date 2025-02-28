@@ -20,13 +20,13 @@ const Navbar = () => {
     <Link className=' navbar_link relative' href="#products">
     MEN'S
     </Link>
-    <Link className=' navbar_link relative' href="#">
+    <Link className=' navbar_link relative' href="#productList">
     WOMEN'S
     </Link>
-    <Link className=' navbar_link relative' href="#">
+    <Link className=' navbar_link relative' href="#productPerfume">
     PERFUME
     </Link>
-    <Link className=' navbar_link relative' href="#">
+    <Link className=' navbar_link relative' href="#newProducts">
     OFFERS
     </Link>
             </div>

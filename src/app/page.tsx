@@ -1,10 +1,11 @@
-import Footwears from "@/components/Footwears";
+// import Footwears from "@/components/Footwears";
 import Gents from "@/components/Gents";
 import Hero from "@/components/Hero";
 import Ladies from "@/components/Ladies";
 import NewProducts from "@/components/NewProducts";
 import Perfume from "@/components/Perfume";
 import Testimonials from "@/components/Testimonials";
+import Watches from "@/components/Collections";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
     <Gents/>
     <Ladies/>
     <Perfume/>
-    <Footwears/>
+    {/* <Footwears/> */}
+    <Watches/>
    </main>
   );
 }
